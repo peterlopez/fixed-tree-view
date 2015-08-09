@@ -1,0 +1,7 @@
+{
+  "name": "fixed-tree-view",
+  "main": "./lib/fixed-tree-view",
+  "version": "0.0.1",
+  "description": "Set a fixed width for Atom's tree view",
+  "license": "MIT"
+}
