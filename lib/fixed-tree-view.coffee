@@ -1,7 +1,11 @@
 {CompositeDisposable} = require 'atom'
 
 module.exports =
-  subscriptions: null
+  config:
+    width:
+      type: 'integer'
+      default: 350
+      minimum: 0
 
   activate: ->
     atom.workspace.observeTextEditors (editor) ->
